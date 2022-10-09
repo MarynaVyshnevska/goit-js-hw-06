@@ -14,6 +14,9 @@ incBtnRef.addEventListener('click', () => {
     totalRef.textContent = counterValue;
 });
 
+
+
+
 // Круто при змiнних значеннях кнопок
 
 // const counterValue = document.querySelector('#value');

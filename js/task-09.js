@@ -15,3 +15,6 @@ function getRandomHexColor(event) {
   codeColorRef.textContent = newColor;
   styleWindowRef.style.backgroundColor = newColor;
 }
+
+
+
