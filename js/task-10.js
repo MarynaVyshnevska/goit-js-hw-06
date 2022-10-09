@@ -13,6 +13,7 @@ function totalBoxes(event) {
 btnCreateRef.addEventListener('click', createBoxes);
 
 function createBoxes(amount) {
+  newBoxes.length = 0;
   amount = Number(amountBoxesRef.value);
   for (let i = 0; i < amount; i += 1) {
     const item = document.createElement('div');
